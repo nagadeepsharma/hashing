@@ -9,6 +9,7 @@ function clickme(){
 		aa.forEach((mm)=>{
 			mm.addEventListener('click',()=>{
 				document.querySelector('.ul').style.display='none'
+				span.innerHTML="#"
 			})
 		})
 		span.innerHTML="!!"
