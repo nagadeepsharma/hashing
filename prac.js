@@ -10,6 +10,7 @@ function clickme(){
 			mm.addEventListener('click',()=>{
 				document.querySelector('.ul').style.display='none'
 				span.innerHTML="#"
+				clicked=!clicked
 			})
 		})
 		span.innerHTML="!!"
